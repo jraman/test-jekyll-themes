@@ -29,7 +29,8 @@ logo: "/images/so-simple-site-logo.png"
 date_format: "%B %-d, %Y"
 read_time: true
 words_per_minute: # 200
-mathjax: true
+# turn off mathjax and use _includes/footer-custom.html
+mathjax: false
 google_fonts:
   - name: "Source Sans Pro"
     weights: "400,400i,700,700i"

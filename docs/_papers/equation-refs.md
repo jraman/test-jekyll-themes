@@ -15,9 +15,10 @@ $$
 
 Then we use that label to create a reference, like so: Eq. $$\ref{ref1}$$.
 
-Note that the reference produces just the equation number and we have added the prefix "Eq."
+Note that the reference produced is just the equation number and we have added the prefix "Eq."
 
-We could also display it with square brackets like so: Eq. $$[\ref{ref1}]$$.
+We could also display it with square brackets within math mode,
+Eq. $$[\ref{ref1}]$$, or outside it, Eq. [$$\ref{ref1}$$].
 
 
 <hr />
@@ -32,7 +33,7 @@ x + 2 \over \sqrt{1 - x^3} \label{ref2}
 \end{equation}
 $$
 
-Here is a reference inside math: $$\ref{ref2} + 1$$ and text after it.
+Here is a reference inside math: $$\ref{ref2} + x + 1$$ and text after it.
 
 <hr />
 # Reference inside math
