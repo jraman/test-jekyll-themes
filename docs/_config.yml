@@ -18,7 +18,7 @@
 # in the templates via {{ site.myvariable }}.
 
 # theme: jekyll-theme-so-simple
-remote_theme: "mmistakes/so-simple-theme@3.2.0"
+remote_theme: "jraman/so-simple-theme"
 
 locale: en-US
 title: "So Simple Theme"
@@ -29,8 +29,8 @@ logo: "/images/so-simple-site-logo.png"
 date_format: "%B %-d, %Y"
 read_time: true
 words_per_minute: # 200
-# turn off mathjax and use _includes/footer-custom.html
-mathjax: false
+# turn on mathjax
+mathjax: true
 google_fonts:
   - name: "Source Sans Pro"
     weights: "400,400i,700,700i"
